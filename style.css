@@ -1,0 +1,28 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header .logo {
+    width: 40px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* Product Cards */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Cart Badge */
+#cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
